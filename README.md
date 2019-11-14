@@ -3,8 +3,8 @@
 > Closures are functions that refer to independent (free) variables .(variables that are neither locally declared nor passed as parameter.)
 > In other words, the function defined in the closure ‘remembers’ the environment in which it was created.
 
-* I don't know JS
-+ 1. WHAT IS THE SCOPE
+***  I don't know JS (SCOPE & CLOSURES)
+#  1. WHAT IS THE SCOPE
 > SCOPE is set of rules for storing variables in some location, 
 > and for finding those variables at a later time.
 ## Compiler Theory
@@ -52,4 +52,9 @@ second, when executing, Engine looks up the vari‐ able in Scope and assigns to
 ### Errors
 
 > ReferenceError is scope resolution-failure related, whereas 
-> TypeEr ror implies that scope resolution was successful, but that there was an illegal/impossible action attempted against the result.
+> TypeEr ror implies that scope resolution was successful, 
+>but that there was an illegal/impossible action attempted against the result.
+
+ ![Lexical scope](LexicalScope.png)
+
+# 2.Lexical Scope 
