@@ -49,3 +49,7 @@ second, when executing, Engine looks up the vari‐ able in Scope and assigns to
 > Just as a block or function is nested inside another block or function, scopes are nested inside other scopes. So, if a variable cannot be found in the immediate scope, Engine consults the next outercontaining
 > scope, continuing until is found or until the outermost (a.k.a., global) scope has been reached.
 
+### Errors
+
+> ReferenceError is scope resolution-failure related, whereas 
+> TypeEr ror implies that scope resolution was successful, but that there was an illegal/impossible action attempted against the result.
