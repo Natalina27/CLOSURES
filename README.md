@@ -58,3 +58,5 @@ second, when executing, Engine looks up the vari‐ able in Scope and assigns to
  ![Lexical scope](LexicalScope.png)
 
 # 2.Lexical Scope 
+
+
