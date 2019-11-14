@@ -41,3 +41,11 @@ second, when executing, Engine looks up the vari‐ able in Scope and assigns to
 
 > Closure is when a function is able to remember and access its lexical scope 
 >even when that function is executing outside its lexical scope.
+
+
+### Nested Scope
+
+> Scope is a set of rules for looking up variables by their identifier name. There’s usually more than one scope to consider, however.
+> Just as a block or function is nested inside another block or function, scopes are nested inside other scopes. So, if a variable cannot be found in the immediate scope, Engine consults the next outercontaining
+> scope, continuing until is found or until the outermost (a.k.a., global) scope has been reached.
+
