@@ -66,3 +66,4 @@ Two mechanisms in JavaScript can “cheat” lexical scope: eval(..) and with.
 Code will run slower as a result of using either feature. 
 ### !!!! Don’t use them.
 
+## 3. Function VS Block Scope
