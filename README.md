@@ -57,6 +57,12 @@ second, when executing, Engine looks up the vari‐ able in Scope and assigns to
 
  ![Lexical scope](LexicalScope.png)
 
-# 2.Lexical Scope 
+## 2.Lexical Scope 
+> There are two predominant models for how scope works: lexical scope and  dynamic scope.
 
+Lexical scope means that scope is defined by author-time decisions of where functions are declared.
+
+Two mechanisms in JavaScript can “cheat” lexical scope: eval(..) and with. 
+Code will run slower as a result of using either feature. 
+### !!!! Don’t use them.
 
