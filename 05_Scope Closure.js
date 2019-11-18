@@ -1,3 +1,4 @@
+//1.
 function foo() {
     let a = 2;
     return function bar() {
@@ -15,6 +16,8 @@ baz();
 // But the “magic” of closures does not let this happen. That inner scope is in fact still in use,
 // and thus does not go away. Who’s using it? The function bar() itself.
 //let fn;
+
+//2.
 let fn;
 function foo1() {
     let a1 = 3;
@@ -28,3 +31,21 @@ function bar1() {
 }
 foo1();
 bar1();
+
+//3.
+function wait(message) {
+    setTimeout(function timer() {
+        console.log(message);
+    }, 1000);
+}
+wait('Hello,  closure!!!!');
+
+//4. The most common canonical example used to illustrate closure involves the humble for loop.(var)
+for (var i = 1; i <= 5; i++) {
+    (function (j) {
+        setTimeout(function timer() {
+            console.log(j);
+        }, j * 1000);
+    })(i);
+}
+
